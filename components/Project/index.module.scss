@@ -1,0 +1,98 @@
+// ProjectList.module.scss
+
+.project {
+  padding: 3rem;
+  background: #f5f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .project-list {
+    margin-bottom: 2rem;
+
+    max-width: 1440px;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 0.5rem;
+    // justify-content: center;
+    // align-items: center;
+
+    overflow: hidden;
+  }
+}
+
+.section__mobile {
+  padding: 1.5rem 1rem;
+
+  .header__mobile {
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: "Caladea", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    line-height: 1.1;
+    text-align: center;
+  }
+}
+
+.button__bar {
+  display: inline-block;
+  // vertical-align: middle;
+  margin: 1.5rem auto 0.5rem auto;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  width: fit-content;
+  text-align: center;
+}
+
+.button__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  // margin: 0 3px;
+  padding: 0;
+}
+
+.button__bar li button {
+  border: none;
+  background: var(--secondary-70, #aee6ff);
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  // height: 15px;
+  height: 0px;
+  width: 2px;
+  // border-radius: 7.5px;
+}
+
+.button__bar :global(li.slick-active) button {
+  // background-color: rgb(8, 255, 140);
+  background-color: var(--secondary-30, #03a9f4);
+  border: solid;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 640px) {
+  .project {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .section__mobile {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+// .project-cards {
+//   display: flex;
+//   justify-content: space-around;
+//   flex-wrap: wrap;
+// }

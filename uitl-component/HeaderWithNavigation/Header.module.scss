@@ -1,0 +1,67 @@
+// Define variables
+$primary-color: #0b1152;
+$button-background: #fff;
+$box-shadow-color: rgba(0, 0, 0, 0.08);
+
+// Define mixins
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  // justify-content: center;
+  width: 100%;
+
+  .h1 {
+    width: 100%;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: "Caladea", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    line-height: 1.1;
+  }
+
+  .button {
+    grid-column: span 4;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-left: auto;
+
+    .left,
+    .right {
+      @include center-flex;
+      width: 30px;
+      height: 30px;
+      // border-radius: 50%;
+      // background-color: $button-background;
+      border-radius: 1.5rem;
+      background: var(--secondary-90, #f7fcff);
+      box-shadow: 0px 0px 2px 0px $box-shadow-color;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+
+      &:hover {
+        background-color: #6470ed;
+      }
+
+      svg {
+        width: 14px;
+        height: 15px;
+
+        &:hover {
+          stroke: white;
+          fill: #6470ed;
+        }
+      }
+    }
+  }
+}

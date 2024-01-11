@@ -1,0 +1,64 @@
+// ProjectCard.module.scss
+
+.project-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  // justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  @media (max-width: 640px) {
+    margin: 1rem;
+    width: inherit;
+  }
+
+  // CSS Modules support
+
+  .project-photo {
+    // height: auto;
+    // width: 100%;
+    // object-fit: cover;
+    // margin-bottom: 1rem;
+
+    height: 250px;
+    width: 100%;
+  }
+
+  .project-details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+
+    .h3 {
+      color: #333;
+      // font-size: 25px;
+    }
+
+    .location {
+      color: #777;
+      font-size: 25px;
+      @media (max-width: 500px) {
+        font-size: 20px;
+      }
+    }
+
+    .project-type {
+      color: #555;
+      font-size: 20px;
+
+      @media (max-width: 500px) {
+        font-size: 15px;
+      }
+    }
+  }
+}

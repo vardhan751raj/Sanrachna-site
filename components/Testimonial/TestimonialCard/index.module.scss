@@ -1,0 +1,181 @@
+// .card {
+//     display: inline-block;
+//     width: 100%;
+//     clear: both;
+//     text-align: center;
+//     margin-bottom: 20px;
+//     box-shadow: 0px 1px 14px rgb(169 169 169 / 25%);
+//     transition: 0.5s;
+
+//     .figure {
+//         width: 100%;
+//         overflow: hidden;
+//         position: relative;
+
+//         .img {
+//             display: block;
+//             width: 100%;
+//         }
+//     }
+
+//     .customer {
+//         display: inline-block;
+//         background: #fff;
+//         min-height: 240px;
+//         padding: 20px 15px;
+//         width: 100%;
+
+// .name {
+//     font-size: 21px;
+//     line-height: 30px;
+//     font-family: 'Caladea', serif;
+//     font-weight: 400;
+//     font-style: normal;
+//     margin-bottom: 15px;
+//     margin-bottom: 5px;
+//     margin-top: 0px;
+//     color: #000000;
+// }
+
+// .position {
+//     font-size: 14px;
+//     color: #838181;
+//     font-weight: 400;
+//     letter-spacing: .5px;
+
+//     line-height: 26px;
+
+//     padding: 0px !important;
+//     font-family: 'Roboto', serif;
+
+//     font-style: normal;
+// }
+
+// .testimonial {
+//     text-align: center;
+//     line-height: 26px;
+//     font-size: 15px;
+//     color: #656565;
+//     font-family: 'Roboto', serif;
+//     font-weight: 400;
+//     font-style: normal;
+// }
+//     }
+// }
+
+// .card {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 1rem;
+//   text-align: center;
+
+//   .figure {
+//     width: 100%;
+//     overflow: hidden;
+//     position: relative;
+
+//     .img {
+//       display: block;
+//       width: 100%;
+//     }
+//   }
+
+//   .customer {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 0.5rem;
+//     text-align: center;
+//     .name {
+//       font-size: 21px;
+//       line-height: 30px;
+//       font-family: 'Caladea', serif;
+//       font-weight: 400;
+//       font-style: normal;
+//       margin-bottom: 15px;
+//       margin-bottom: 5px;
+//       margin-top: 0px;
+//       color: #000000;
+//     }
+
+//     .position {
+//       font-size: 14px;
+//       color: #838181;
+//       font-weight: 400;
+//       letter-spacing: 0.5px;
+
+//       line-height: 26px;
+
+//       padding: 0px !important;
+//       font-family: 'Roboto', serif;
+
+//       font-style: normal;
+//     }
+
+//     .testimonial {
+//       text-align: center;
+//       line-height: 26px;
+//       font-size: 15px;
+//       color: #656565;
+//       font-family: 'Roboto', serif;
+//       font-weight: 400;
+//       font-style: normal;
+//     }
+//   }
+// }
+
+// CustomerReviewCard.module.scss
+
+.review-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+
+  // padding: 1.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  @media (max-width: 640px) {
+    margin: 1rem;
+  }
+
+  // CSS Modules support
+
+  .customer-photo {
+    // border-radius: 50%;
+    border-radius: 0.75rem 0.75rem 0 0;
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+    margin-right: 1rem;
+
+    @media (max-width: 1200px) {
+      height: 250px;
+    }
+
+    @media (min-width: 500px) and (max-width: 640px) {
+      height: 280px;
+      object-fit: fill;
+    }
+  }
+
+  .review-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 0.5rem;
+
+    .profession {
+      color: #777;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .review-text {
+      color: #555;
+      text-align: center;
+    }
+  }
+}

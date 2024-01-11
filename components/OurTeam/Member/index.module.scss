@@ -1,0 +1,86 @@
+// .card {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+
+//   position: relative;
+
+//   .figure {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     .img {
+//       width: 80%;
+//     }
+//   }
+
+//   .person {
+//     position: absolute;
+//     background-color: white;
+//     border-radius: 0.75rem;
+//     // bottom: 2rem;
+//     top: 65%;
+//     width: max-content;
+//     padding: 0.5rem;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+
+//     .name {
+//       font-family: 'Caladea', serif;
+//       font-weight: 400;
+//       font-style: normal;
+//       color: #000000;
+
+//       font-size: 21px;
+//       line-height: 30px;
+//     }
+
+//     .position {
+//       line-height: 26px;
+//       font-size: 15px;
+//       font-family: 'Roboto', serif;
+//       font-weight: 400;
+
+//       color: #737373;
+//       font-style: italic;
+//     }
+//   }
+
+//   .description {
+//     padding-top: 4rem;
+//   }
+// }
+
+// CustomerReviewCard.module.scss
+
+.review-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  width: 300px;
+
+  // CSS Modules support
+
+  .customer-photo {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+
+  .review-details .profession {
+    color: #777;
+    margin-bottom: 0.5rem;
+  }
+
+  .review-details .review-text {
+    color: #555;
+  }
+}
