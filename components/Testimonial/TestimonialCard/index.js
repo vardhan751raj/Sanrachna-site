@@ -38,6 +38,7 @@ const CustomerReviewCard = ({ review }) => {
         className={styles['customer-photo']}
       />
       <div className={styles['review-details']}>
+        
         <p className={styles['profession']}>{name}</p>
         <p className={styles['profession']}>{profession}</p>
         <p className={styles['review-text']}>{text}</p>
