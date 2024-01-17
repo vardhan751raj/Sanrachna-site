@@ -9,7 +9,7 @@ const src = 'https://www.omaxe.com/testimonial/testimonial_755.jpg'
 const member1 = {
   photo: '/images/R.B.Singh.png',
   name: 'R.B. Singh',
-  position: 'Engineer'
+  position: 'Engineer and Builder'
   // photo: "https://www.omaxe.com/managementspeakhome/managementspeak_433.webp",
   // name: "RajVardhan",
   // position: "Team Lead",
@@ -19,7 +19,7 @@ const member1 = {
 const member2 = {
   photo: '/images/Ramswarup.png',
   name: 'Mr. Ramswarup Sharma',
-  position: 'Contractor'
+  position: 'Builder'
 
   // photo: 'https://www.omaxe.com/managementspeakhome/managementspeak_433.webp',
   // name: 'RajVardhan',
