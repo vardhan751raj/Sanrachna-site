@@ -9,7 +9,7 @@ const src = 'https://www.omaxe.com/testimonial/testimonial_755.jpg'
 const member1 = {
   photo: '/images/R.B.Singh.png',
   name: 'R.B. Singh',
-  position: 'Engineer and Builder'
+  position: 'Engineer & Builder'
   // photo: "https://www.omaxe.com/managementspeakhome/managementspeak_433.webp",
   // name: "RajVardhan",
   // position: "Team Lead",
