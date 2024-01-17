@@ -28,7 +28,7 @@ import styles from './index.module.scss'
 const src = 'https://www.omaxe.com/testimonial/testimonial_755.jpg'
 
 const CustomerReviewCard = ({ review }) => {
-  const { photo, profession, text } = review
+  const { photo, profession, text, name } = review
 
   return (
     <div className={styles['review-card']}>
@@ -38,6 +38,7 @@ const CustomerReviewCard = ({ review }) => {
         className={styles['customer-photo']}
       />
       <div className={styles['review-details']}>
+        <p className={styles['profession']}>{name}</p>
         <p className={styles['profession']}>{profession}</p>
         <p className={styles['review-text']}>{text}</p>
       </div>
