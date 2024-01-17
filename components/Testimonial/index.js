@@ -44,14 +44,14 @@ const customerReviews = [
     // photo: "url_to_customer1_photo.jpg",
     photo: './images/last.jpg',
     profession: 'Army Officer',
-    name: 'Mr. Abhishek Kumar",
+    name: 'Mr. Abhishek Kumar',
     text: 'Sanrachna Co. did a top notch renovation and new construction on our home. We love it and are very pleased with the results.'
   },
   {
     id: 2,
     // photo: 'url_to_customer2_photo.jpg',
     photo: './images/last.jpg',
-    profession: 'Businessman';
+    profession: 'Businessman',
     name: 'Mr. Ajeet Pandey',
     text: 'They made what could’ve been quite disruptive a very smooth experience, and the final renovations look great. Thanks for the great design help and quality form the whole team.'
   },
