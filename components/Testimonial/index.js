@@ -69,7 +69,7 @@ const customerReviews = [
     photo: './images/last.jpg',
     profession: 'Doctor',
     name: 'Dr. Vikas Patel',
-    text: 'Sanrachna Co. made no false promises and we were actually happy to have found Sanrachna Co. It was an online search however, Sanrachna Co. was very transparent and that's what we liked the most and now we are happy homeowners. Thank you Sanrachna Co.'
+    text: "Sanrachna Co. made no false promises and we were actually happy to have found Sanrachna Co. It was an online search however, Sanrachna Co. was very transparent and that's what we liked the most and now we are happy homeowners. Thank you Sanrachna Co."
   },
   {
     id: 5,
