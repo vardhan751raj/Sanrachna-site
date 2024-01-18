@@ -73,14 +73,15 @@ const MobileView = () => {
       slidesToShow: 1,
       draggable: true,
       mobileFirst: true,
-      centerMode: true,
+      // centerMode: true,
+      centerMode: false,
       // centerPadding: '10%',
-      centerPadding:
-        typeof window !== 'undefined' &&
-        window.outerWidth < 640 &&
-        window.outerWidth > 540
-          ? '15%'
-          : '10%',
+      // centerPadding:
+      //   typeof window !== 'undefined' &&
+      //   window.outerWidth < 640 &&
+      //   window.outerWidth > 540
+      //     ? '15%'
+      //     : '10%',
       slidesToScroll: 1,
       arrows: false,
       dotsClass: style.button__bar
